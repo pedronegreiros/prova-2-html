@@ -1,0 +1,46 @@
+<!-- ALUNO: PEDRO NEGREIROS ANDRADE -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário de Exemplo</title>
+</head>
+<body>
+  <h2>Formulário</h2>
+  <form action="/processar-dados" method="post">
+    <label for="info">Informações:</label>
+    <input type="text" id="info" name="info" required>
+    <br>
+    <label for="senha">Senha:</label>
+    <input type="password" id="senha" name="senha" required>
+    <br>
+    <label for="email">E-mail:</label>
+    <input type="email" id="email" name="email" required>
+    <br>
+    <label>Opções:</label>
+    <br>
+    <input type="checkbox" id="opcao1" name="opcoes[]" value="opcao1">
+    <label for="opcao1">Opção 1</label>
+    <input type="checkbox" id="opcao2" name="opcoes[]" value="opcao2">
+    <label for="opcao2">Opção 2</label>
+    <input type="checkbox" id="opcao3" name="opcoes[]" value="opcao3">
+    <label for="opcao3">Opção 3</label>
+    <input type="checkbox" id="opcao4" name="opcoes[]" value="opcao4">
+    <label for="opcao4">Opção 4</label>
+    <input type="checkbox" id="opcao5" name="opcoes[]" value="opcao5">
+    <label for="opcao5">Opção 5</label>
+    <br>
+    <label>Escolha uma opção:</label>
+    <br>
+    <input type="radio" id="opcaoA" name="escolha" value="opcaoA" required>
+    <label for="opcaoA">Opção A</label>
+    <input type="radio" id="opcaoB" name="escolha" value="opcaoB" required>
+    <label for="opcaoB">Opção B</label>
+    <br>
+    <button type="submit">Enviar</button>
+    <button type="reset">Limpar</button>
+  </form>
+</body>
+</html>
